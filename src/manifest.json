@@ -1,0 +1,67 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extName__",
+  "short_name": "RAM Optimizer",
+  "description": "__MSG_extDescription__",
+  "version": "1.0.0",
+  "default_locale": "en",
+  "author": "xreamm1",
+  "homepage_url": "https://github.com/xreamm1/firefox-RAM-optimizer",
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "ram-optimizer@xreamm1.github.io",
+      "strict_min_version": "115.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  },
+
+  "icons": {
+    "48": "icons/icon.svg",
+    "96": "icons/icon.svg"
+  },
+
+  "permissions": [
+    "tabs",
+    "alarms",
+    "storage",
+    "menus",
+    "browsingData",
+    "privacy",
+    "browserSettings"
+  ],
+
+  "background": {
+    "scripts": ["common.js", "background.js"]
+  },
+
+  "action": {
+    "default_title": "__MSG_extName__",
+    "default_popup": "popup/popup.html",
+    "default_icon": "icons/icon.svg"
+  },
+
+  "options_ui": {
+    "page": "options/options.html",
+    "open_in_tab": true
+  },
+
+  "commands": {
+    "_execute_action": {
+      "suggested_key": { "default": "Alt+Shift+M" }
+    },
+    "discard-current": {
+      "suggested_key": { "default": "Alt+Shift+D" },
+      "description": "__MSG_cmdDiscardCurrent__"
+    },
+    "discard-others": {
+      "suggested_key": { "default": "Alt+Shift+O" },
+      "description": "__MSG_cmdDiscardOthers__"
+    },
+    "discard-all-windows": {
+      "description": "__MSG_cmdDiscardAll__"
+    }
+  }
+}

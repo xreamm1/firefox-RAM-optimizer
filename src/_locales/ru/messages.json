@@ -1,0 +1,177 @@
+{
+  "extName": {
+    "message": "RAM Optimizer"
+  },
+  "extDescription": {
+    "message": "Максимально снижает потребление памяти Firefox: автоматически выгружает неактивные вкладки, ограничивает число загруженных вкладок, отключает предзагрузку и многое другое."
+  },
+  "cmdDiscardCurrent": {
+    "message": "Выгрузить текущую вкладку"
+  },
+  "cmdDiscardOthers": {
+    "message": "Выгрузить остальные вкладки окна"
+  },
+  "cmdDiscardAll": {
+    "message": "Выгрузить все фоновые вкладки во всех окнах"
+  },
+  "menuDiscardTab": {
+    "message": "Выгрузить эту вкладку"
+  },
+  "menuDiscardOthers": {
+    "message": "Выгрузить остальные вкладки"
+  },
+  "menuDiscardOtherWindows": {
+    "message": "Выгрузить вкладки в других окнах"
+  },
+  "menuToggleWhitelist": {
+    "message": "Никогда не выгружать этот сайт (вкл/выкл)"
+  },
+  "statTabs": {
+    "message": "Вкладок"
+  },
+  "statLoaded": {
+    "message": "Загружено"
+  },
+  "statDiscarded": {
+    "message": "Выгружено"
+  },
+  "statSaved": {
+    "message": "≈ Сэкономлено"
+  },
+  "statTotal": {
+    "message": "Всего выгружено вкладок"
+  },
+  "btnDiscardOthers": {
+    "message": "Выгрузить остальные вкладки"
+  },
+  "btnDiscardCurrent": {
+    "message": "Выгрузить текущую вкладку"
+  },
+  "btnDiscardAll": {
+    "message": "Выгрузить во всех окнах"
+  },
+  "btnCloseDuplicates": {
+    "message": "Закрыть дубликаты"
+  },
+  "btnClearCache": {
+    "message": "Очистить кэш"
+  },
+  "btnSettings": {
+    "message": "Настройки"
+  },
+  "toggleAuto": {
+    "message": "Автовыгрузка неактивных вкладок"
+  },
+  "toggleProtectTab": {
+    "message": "Защитить эту вкладку (до перезапуска)"
+  },
+  "toggleWhitelistSite": {
+    "message": "Никогда не выгружать этот сайт"
+  },
+  "currentSite": {
+    "message": "Текущий сайт"
+  },
+  "notDiscardable": {
+    "message": "Эту страницу нельзя выгрузить"
+  },
+  "doneDiscarded": {
+    "message": "Выгружено: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "doneClosed": {
+    "message": "Закрыто: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "doneCache": {
+    "message": "Кэш очищен"
+  },
+  "optTitle": {
+    "message": "RAM Optimizer — настройки"
+  },
+  "secUnload": {
+    "message": "Выгрузка вкладок"
+  },
+  "optAutoDiscard": {
+    "message": "Автоматически выгружать неактивные вкладки"
+  },
+  "optDiscardAfter": {
+    "message": "Выгружать через (минут бездействия)"
+  },
+  "optMaxLoaded": {
+    "message": "Максимум загруженных вкладок (0 = без лимита)"
+  },
+  "optMaxLoadedHint": {
+    "message": "При превышении первыми выгружаются давно неиспользуемые вкладки."
+  },
+  "optDiscardMinimized": {
+    "message": "Выгружать вкладки свёрнутых окон"
+  },
+  "optDiscardOnStartup": {
+    "message": "Выгружать все фоновые вкладки при запуске браузера"
+  },
+  "secProtect": {
+    "message": "Защита"
+  },
+  "optProtectPinned": {
+    "message": "Не выгружать закреплённые вкладки"
+  },
+  "optProtectAudible": {
+    "message": "Не выгружать вкладки, воспроизводящие звук"
+  },
+  "optProtectSharing": {
+    "message": "Не выгружать вкладки с камерой / микрофоном / демонстрацией экрана"
+  },
+  "optWhitelist": {
+    "message": "Белый список (один домен на строку, поддомены включены)"
+  },
+  "secTweaks": {
+    "message": "Настройки браузера"
+  },
+  "optDisablePrefetch": {
+    "message": "Отключить предсказание сети и предзагрузку"
+  },
+  "optLimitAnimations": {
+    "message": "Проигрывать GIF-анимации только один раз"
+  },
+  "optDisableHyperlinkAuditing": {
+    "message": "Отключить аудит ссылок (<a ping>)"
+  },
+  "optTweaksHint": {
+    "message": "Для более глубокой оптимизации используйте user.js из репозитория — часть параметров расширениям недоступна."
+  },
+  "secUi": {
+    "message": "Интерфейс"
+  },
+  "optShowBadge": {
+    "message": "Показывать число выгруженных вкладок на значке"
+  },
+  "optEstMb": {
+    "message": "Оценка памяти на выгруженную вкладку (МБ)"
+  },
+  "btnSave": {
+    "message": "Сохранить"
+  },
+  "btnReset": {
+    "message": "Сбросить по умолчанию"
+  },
+  "btnResetStats": {
+    "message": "Сбросить статистику"
+  },
+  "btnRunNow": {
+    "message": "Применить правила сейчас"
+  },
+  "saved": {
+    "message": "Сохранено ✓"
+  },
+  "shortcutsHint": {
+    "message": "Горячие клавиши меняются в about:addons → ⚙ → Управление горячими клавишами расширений."
+  }
+}

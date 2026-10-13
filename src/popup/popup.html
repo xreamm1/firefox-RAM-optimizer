@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <img src="../icons/icon.svg" alt="" width="24" height="24">
+    <h1 data-i18n="extName"></h1>
+  </header>
+
+  <section class="stats">
+    <div><b id="stTotal">–</b><span data-i18n="statTabs"></span></div>
+    <div><b id="stLoaded">–</b><span data-i18n="statLoaded"></span></div>
+    <div><b id="stDiscarded">–</b><span data-i18n="statDiscarded"></span></div>
+    <div><b id="stSaved">–</b><span data-i18n="statSaved"></span></div>
+  </section>
+
+  <section class="actions">
+    <button id="discardOthers" class="primary" data-i18n="btnDiscardOthers"></button>
+    <div class="row">
+      <button id="discardCurrent" data-i18n="btnDiscardCurrent"></button>
+      <button id="discardAll" data-i18n="btnDiscardAll"></button>
+    </div>
+    <div class="row">
+      <button id="closeDuplicates" data-i18n="btnCloseDuplicates"></button>
+      <button id="clearCache" data-i18n="btnClearCache"></button>
+    </div>
+  </section>
+
+  <section class="toggles">
+    <label><input type="checkbox" id="autoDiscard"> <span data-i18n="toggleAuto"></span></label>
+    <div id="siteBlock">
+      <div class="site"><span data-i18n="currentSite"></span>: <code id="siteHost"></code></div>
+      <label><input type="checkbox" id="protectTab"> <span data-i18n="toggleProtectTab"></span></label>
+      <label><input type="checkbox" id="whitelistSite"> <span data-i18n="toggleWhitelistSite"></span></label>
+    </div>
+    <div id="notDiscardable" class="muted" data-i18n="notDiscardable" hidden></div>
+  </section>
+
+  <footer>
+    <span class="muted"><span data-i18n="statTotal"></span>: <b id="stAllTime">0</b></span>
+    <a href="#" id="openOptions" data-i18n="btnSettings"></a>
+  </footer>
+
+  <div id="toast" hidden></div>
+
+  <script src="../common.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

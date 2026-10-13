@@ -1,0 +1,177 @@
+{
+  "extName": {
+    "message": "RAM Optimizer"
+  },
+  "extDescription": {
+    "message": "Aggressively reduces Firefox memory usage: automatically unloads inactive tabs, limits loaded tabs, disables prefetching and more."
+  },
+  "cmdDiscardCurrent": {
+    "message": "Unload current tab"
+  },
+  "cmdDiscardOthers": {
+    "message": "Unload other tabs in this window"
+  },
+  "cmdDiscardAll": {
+    "message": "Unload all background tabs in all windows"
+  },
+  "menuDiscardTab": {
+    "message": "Unload this tab"
+  },
+  "menuDiscardOthers": {
+    "message": "Unload other tabs"
+  },
+  "menuDiscardOtherWindows": {
+    "message": "Unload tabs in other windows"
+  },
+  "menuToggleWhitelist": {
+    "message": "Never unload this site (toggle)"
+  },
+  "statTabs": {
+    "message": "Tabs"
+  },
+  "statLoaded": {
+    "message": "Loaded"
+  },
+  "statDiscarded": {
+    "message": "Unloaded"
+  },
+  "statSaved": {
+    "message": "≈ RAM saved"
+  },
+  "statTotal": {
+    "message": "Tabs unloaded in total"
+  },
+  "btnDiscardOthers": {
+    "message": "Unload other tabs"
+  },
+  "btnDiscardCurrent": {
+    "message": "Unload current tab"
+  },
+  "btnDiscardAll": {
+    "message": "Unload all windows"
+  },
+  "btnCloseDuplicates": {
+    "message": "Close duplicates"
+  },
+  "btnClearCache": {
+    "message": "Clear cache"
+  },
+  "btnSettings": {
+    "message": "Settings"
+  },
+  "toggleAuto": {
+    "message": "Auto-unload inactive tabs"
+  },
+  "toggleProtectTab": {
+    "message": "Protect this tab (session)"
+  },
+  "toggleWhitelistSite": {
+    "message": "Never unload this site"
+  },
+  "currentSite": {
+    "message": "Current site"
+  },
+  "notDiscardable": {
+    "message": "This page can't be unloaded"
+  },
+  "doneDiscarded": {
+    "message": "Unloaded: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "doneClosed": {
+    "message": "Closed: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "doneCache": {
+    "message": "Cache cleared"
+  },
+  "optTitle": {
+    "message": "RAM Optimizer — settings"
+  },
+  "secUnload": {
+    "message": "Tab unloading"
+  },
+  "optAutoDiscard": {
+    "message": "Automatically unload inactive tabs"
+  },
+  "optDiscardAfter": {
+    "message": "Unload after (minutes of inactivity)"
+  },
+  "optMaxLoaded": {
+    "message": "Max loaded tabs (0 = unlimited)"
+  },
+  "optMaxLoadedHint": {
+    "message": "When exceeded, the least recently used tabs are unloaded first."
+  },
+  "optDiscardMinimized": {
+    "message": "Unload tabs in minimized windows"
+  },
+  "optDiscardOnStartup": {
+    "message": "Unload all background tabs at browser startup"
+  },
+  "secProtect": {
+    "message": "Protection"
+  },
+  "optProtectPinned": {
+    "message": "Never unload pinned tabs"
+  },
+  "optProtectAudible": {
+    "message": "Never unload tabs playing sound"
+  },
+  "optProtectSharing": {
+    "message": "Never unload tabs using camera / microphone / screen"
+  },
+  "optWhitelist": {
+    "message": "Whitelist (one domain per line, subdomains included)"
+  },
+  "secTweaks": {
+    "message": "Browser tweaks"
+  },
+  "optDisablePrefetch": {
+    "message": "Disable network prediction & prefetching"
+  },
+  "optLimitAnimations": {
+    "message": "Play GIF animations only once"
+  },
+  "optDisableHyperlinkAuditing": {
+    "message": "Disable hyperlink auditing (<a ping>)"
+  },
+  "optTweaksHint": {
+    "message": "For deeper optimisation see user.js in the repository — some prefs can't be changed by extensions."
+  },
+  "secUi": {
+    "message": "Interface"
+  },
+  "optShowBadge": {
+    "message": "Show number of unloaded tabs on the icon"
+  },
+  "optEstMb": {
+    "message": "Estimated RAM per unloaded tab (MB)"
+  },
+  "btnSave": {
+    "message": "Save"
+  },
+  "btnReset": {
+    "message": "Reset to defaults"
+  },
+  "btnResetStats": {
+    "message": "Reset statistics"
+  },
+  "btnRunNow": {
+    "message": "Apply rules now"
+  },
+  "saved": {
+    "message": "Saved ✓"
+  },
+  "shortcutsHint": {
+    "message": "Keyboard shortcuts can be changed in about:addons → ⚙ → Manage Extension Shortcuts."
+  }
+}

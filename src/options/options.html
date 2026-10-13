@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>RAM Optimizer</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <main>
+    <h1 data-i18n="optTitle"></h1>
+
+    <form id="form">
+      <fieldset>
+        <legend data-i18n="secUnload"></legend>
+        <label class="check"><input type="checkbox" name="autoDiscard"> <span data-i18n="optAutoDiscard"></span></label>
+        <label class="num"><span data-i18n="optDiscardAfter"></span>
+          <input type="number" name="discardAfterMin" min="1" max="1440" step="1"></label>
+        <label class="num"><span data-i18n="optMaxLoaded"></span>
+          <input type="number" name="maxLoadedTabs" min="0" max="500" step="1"></label>
+        <p class="hint" data-i18n="optMaxLoadedHint"></p>
+        <label class="check"><input type="checkbox" name="discardMinimized"> <span data-i18n="optDiscardMinimized"></span></label>
+        <label class="check"><input type="checkbox" name="discardOnStartup"> <span data-i18n="optDiscardOnStartup"></span></label>
+      </fieldset>
+
+      <fieldset>
+        <legend data-i18n="secProtect"></legend>
+        <label class="check"><input type="checkbox" name="protectPinned"> <span data-i18n="optProtectPinned"></span></label>
+        <label class="check"><input type="checkbox" name="protectAudible"> <span data-i18n="optProtectAudible"></span></label>
+        <label class="check"><input type="checkbox" name="protectSharing"> <span data-i18n="optProtectSharing"></span></label>
+        <label class="block"><span data-i18n="optWhitelist"></span>
+          <textarea name="whitelist" rows="6" spellcheck="false" placeholder="mail.google.com&#10;music.youtube.com"></textarea></label>
+      </fieldset>
+
+      <fieldset>
+        <legend data-i18n="secTweaks"></legend>
+        <label class="check"><input type="checkbox" name="disablePrefetch"> <span data-i18n="optDisablePrefetch"></span></label>
+        <label class="check"><input type="checkbox" name="limitAnimations"> <span data-i18n="optLimitAnimations"></span></label>
+        <label class="check"><input type="checkbox" name="disableHyperlinkAuditing"> <span data-i18n="optDisableHyperlinkAuditing"></span></label>
+        <p class="hint" data-i18n="optTweaksHint"></p>
+      </fieldset>
+
+      <fieldset>
+        <legend data-i18n="secUi"></legend>
+        <label class="check"><input type="checkbox" name="showBadge"> <span data-i18n="optShowBadge"></span></label>
+        <label class="num"><span data-i18n="optEstMb"></span>
+          <input type="number" name="estMbPerTab" min="10" max="2000" step="10"></label>
+        <p class="hint" data-i18n="shortcutsHint"></p>
+      </fieldset>
+
+      <div class="buttons">
+        <button type="submit" class="primary" data-i18n="btnSave"></button>
+        <button type="button" id="runNow" data-i18n="btnRunNow"></button>
+        <button type="button" id="reset" data-i18n="btnReset"></button>
+        <button type="button" id="resetStats" data-i18n="btnResetStats"></button>
+        <span id="status" class="status"></span>
+      </div>
+    </form>
+  </main>
+
+  <script src="../common.js"></script>
+  <script src="options.js"></script>
+</body>
+</html>
